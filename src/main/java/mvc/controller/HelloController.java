@@ -12,7 +12,7 @@ import java.util.List;
 @Controller
 public class HelloController {
 
-	@RequestMapping("/")
+	@RequestMapping("/mvc")
 	public String index() {
 			return "index";
 	}
